@@ -26,5 +26,5 @@ Go to http://localhost:3333/users using a post request. Then in the body send a 
 	"password": "123456"
 }
 </div>
-
+<br>
 If it worked you'll receive as response another JSON with the new user informations.
