@@ -19,10 +19,11 @@ Since the application doesn't have a front-end yet you'll need to use Insomnia t
 
 # Creating new users
 Go to http://localhost:3333/users using a post request. Then in the body send a JSON like this:
+<div>
 {
 	"name": "John Doe",
 	"email": "email@example.com",
 	"password": "123456"
 }
-
+</div>
 If it worked you'll receive as response another JSON with the new user informations.
